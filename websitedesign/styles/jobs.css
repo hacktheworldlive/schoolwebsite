@@ -1,0 +1,36 @@
+/* Jobs Page Styles */
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background for contrast */
+  }
+  
+  /* Jobs banner styles */
+  .jobs-banner {
+    padding: 40px 20px;
+    background-color: #282c34; /* Dark background for the banner */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+  }
+  
+  /* Job listings section styles */
+  .job-listings {
+    padding: 20px;
+    background-color: #ffffff; /* White background for clarity */
+    color: #333; /* Dark text color */
+  }
+  
+  /* Individual job listing styles */
+  .job-listings h3 {
+    margin: 10px 0; /* Margin between job titles and descriptions */
+  }
+  
+  .job-listings p {
+    margin: 5px 0 20px; /* Margin for description text */
+  }
+  
+  /* Style for Jobs page ends here */
+  

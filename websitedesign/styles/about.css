@@ -1,0 +1,51 @@
+/* About Us Page Styles */
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background for contrast */
+  }
+  
+  /* About banner styles */
+  .about-banner {
+    padding: 40px 20px;
+    background-color: #282c34; /* Dark background for the banner */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+  }
+  
+  /* Mission and Vision section styles */
+  .mission-vision {
+    padding: 20px;
+    background-color: #ffffff; /* White background for clarity */
+    color: #333; /* Dark text color */
+    text-align: center; /* Center the text */
+  }
+  
+  /* Team section styles */
+  .team {
+    display: flex;
+    flex-direction: column; /* Stack members vertically */
+    align-items: center; /* Center align members */
+    padding: 20px;
+    background-color: #282c34; /* Dark background for the team section */
+    color: white; /* Text color */
+  }
+  
+  /* Individual team member styles */
+  .team-member {
+    margin: 20px;
+    text-align: center; /* Center align text */
+  }
+  
+  .team-member img {
+    width: 150px; /* Fixed width for team member images */
+    height: 150px; /* Fixed height for team member images */
+    border-radius: 50%; /* Circular images */
+    margin-bottom: 10px; /* Space between image and text */
+  }
+  
+  /* Style for About Us ends here */
+  

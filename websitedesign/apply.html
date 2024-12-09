@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply - Hot Beans Web</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles/apply.css"> <!-- New styles for Apply page -->
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/logo.png" alt="Hot Beans Web Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+        <li><a href="apply.html">Apply</a></li>
+        <li><a href="courses.html">Courses</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="apply-banner">
+      <h1>Apply Now</h1>
+      <p>Fill out the form below to submit your application to join our team!</p>
+    </section>
+
+    <section class="application-form">
+      <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="job">Position Applied For:</label>
+        <select id="job" name="job">
+          <option value="junior_web_dev">Junior Web Developer</option>
+          <option value="ui_ux_designer">UI/UX Designer</option>
+          <option value="backend_dev">Backend Developer</option>
+        </select>
+
+        <label for="message">Cover Letter:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Submit Application</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jobs - Hot Beans Web</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles/jobs.css"> <!-- New styles for Jobs page -->
+  <style>
+    .job-listings {
+      display: flex;
+      flex-direction: column;
+      gap: 20px; /* Space between job listings */
+    }
+    .job-listing {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ccc; /* Light gray border for job listing */
+      border-radius: 8px; /* Rounded corners */
+      padding: 10px;
+      transition: transform 0.2s; /* Animation for hover effect */
+    }
+    .job-listing:hover {
+      transform: scale(1.02); /* Slight zoom effect on hover */
+    }
+    .job-image {
+      width: 100px; /* Fixed width for job images */
+      height: auto; /* Maintain aspect ratio */
+      margin-right: 15px; /* Space between image and text */
+      border-radius: 5px; /* Rounded corners for images */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/logo.png" alt="Hot Beans Web Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+        <li><a href="apply.html">Apply</a></li>
+        <li><a href="courses.html">Courses</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="jobs-banner">
+      <h1>Join Our Team</h1>
+      <p>At Hot Beans Web, we are always looking for talented developers. We believe in fostering creativity and collaboration to build innovative solutions for our clients. Check out the available job openings below and become a part of our dynamic team!</p>
+    </section>
+
+    <section class="job-listings">
+      <h2>Available Job Openings</h2>
+      <div class="job-listing">
+        <img src="img/juniordev.png" alt="Junior Web Developer" class="job-image"> <!-- Image for Junior Web Developer -->
+        <div>
+          <h3>Junior Web Developer</h3>
+          <p>We are looking for a motivated Junior Web Developer to join our team. Responsibilities include assisting in the design and development of websites, writing clean and efficient code, and collaborating with senior developers to troubleshoot and improve existing projects. This position offers a great opportunity to learn and grow within a supportive environment at Hot Beans.</p>
+        </div>
+      </div>
+
+      <div class="job-listing">
+        <img src="img/ux-ui-dev.png" alt="UI/UX Designer" class="job-image"> <!-- Image for UI/UX Designer -->
+        <div>
+          <h3>UI/UX Designer</h3>
+          <p>As a UI/UX Designer, you will create user-friendly designs and ensure a great user experience for our web applications. Your role involves conducting user research, designing wireframes and prototypes, and collaborating with developers to implement your designs. At Hot Beans, your creative input will shape the digital experience for our users.</p>
+        </div>
+      </div>
+
+      <div class="job-listing">
+        <img src="img/backenddev.webp" alt="Backend Developer" class="job-image"> <!-- Image for Backend Developer -->
+        <div>
+          <h3>Backend Developer</h3>
+          <p>The Backend Developer will be responsible for server-side web application logic and integration. You will work on building APIs, managing database operations, and ensuring the performance and responsiveness of applications. Joining Hot Beans means you will be part of a team dedicated to developing robust back-end solutions that power our clients' needs.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+
+
+
+
